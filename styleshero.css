@@ -1,0 +1,198 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #3498db;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .hero-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about {
+    padding: 80px 20px;
+    background-color: #f5f5f5;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.projects {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+}
+
+.project-item p {
+    font-size: 16px;
+}
+
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.skills {
+    padding: 80px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.contact {
+    padding: 80px 20px;
+    background-color: #f5f5f5;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

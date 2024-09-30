@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.project-detail {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tech-section {
+    margin-top: 20px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.tech-item {
+    grid-column: span 3; /* 4 grid columns for each technology */
+    background: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tech-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+.project-details {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tech-section {
+    margin-top: 20px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.tech-item {
+    grid-column: span 3; /* Each tech item spans 4 columns */
+    background: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tech-icon {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
